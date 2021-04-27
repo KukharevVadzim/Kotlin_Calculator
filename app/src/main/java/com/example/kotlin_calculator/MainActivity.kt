@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         btnResult.setOnClickListener {
             val input1 = editFirstNumber.text.toString().toDouble()
             val input2 = editSecondNumber.text.toString().toDouble()
-            var result = 80.0
+            var result = 0.0
             if (operator.equals("+")) {
                 result = input1.toDouble() + input2.toDouble()
             } else if (operator.equals("-")) {
